@@ -10,7 +10,7 @@ class Verses extends Component {
             textoVersiculo: ''
         };
 
-        this.quebraBiscoito = this.quebraBiscoito.bind(this)
+        this.geraVersiculo = this.geraVersiculo.bind(this)
 
         this.versiculos = [
             {
@@ -40,7 +40,7 @@ class Verses extends Component {
         ];
     }
 
-    quebraBiscoito() {
+    geraVersiculo() {
         let state = this.state;
         let numAleatorio = Math.floor(Math.random() * this.versiculos.length);
         state.textoVersiculo = this.versiculos[numAleatorio];
@@ -49,11 +49,17 @@ class Verses extends Component {
 
     render() {
         return (
-            <div className='container'>
-                <h2 className='verse'>{this.state.textoVersiculo.texto}</h2>
-                <h3 className='reference'>{this.state.textoVersiculo.referencia}</h3>
-                <Botao nome="Gerar Outro Versiculo" acaoBtn={this.quebraBiscoito} />
-            </div>
+            <>
+                <div className='container'>
+                    <div className='sociais'>
+                        <a className='insta' href="https://www.instagram.com/constru.ide/" target="_blank" rel="noreferrer">@construide</a>
+                    </div>
+
+                    <h2 className='verse'>{this.state.textoVersiculo.texto}</h2>
+                    <h3 className='reference'>{this.state.textoVersiculo.referencia}</h3>
+                    <Botao nome="Gerar Outro Versiculo" acaoBtn={this.geraVersiculo} />
+                </div>
+            </>
         )
     }
 }
