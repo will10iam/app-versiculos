@@ -1,0 +1,10 @@
+.container {
+    background-image: url('../../Assets/come2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 597px;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
