@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import './index.css'
+import { MdWest } from "react-icons/md";
+import { Link } from 'react-router-dom';
+
 
 
 class Verses extends Component {
@@ -50,14 +53,14 @@ class Verses extends Component {
     render() {
         return (
             <>
-                <div className='container'>
-                    <div className='sociais'>
-                        <a className='insta' href="https://www.instagram.com/constru.ide/" target="_blank" rel="noreferrer">@construide</a>
-                    </div>
+                <div>
+                    <Link to='/'><MdWest color='#FFF' size={30} className='icon' /></Link>
+                </div>
 
+                <div className='container'>
                     <h2 className='verse'>{this.state.textoVersiculo.texto}</h2>
                     <h3 className='reference'>{this.state.textoVersiculo.referencia}</h3>
-                    <Botao nome="Gerar Outro Versiculo" acaoBtn={this.geraVersiculo} />
+                    <Botao nome="VERSÍCULO DO DIA" acaoBtn={this.geraVersiculo} />
                 </div>
             </>
         )

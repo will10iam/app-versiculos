@@ -2,7 +2,7 @@
     background-image: url('../../Assets/come2.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 597px;
+    height: 570px;
     margin: 0;
     border: 0;
     box-sizing: border-box;
@@ -38,7 +38,6 @@
 }
 
 .insta {
-    transform: rotate(90deg);
     margin-bottom: -190px;
     text-decoration: none;
     color: #fff;
@@ -49,4 +48,22 @@
 
 .insta:hover {
     opacity: 0.8;
+    color: #F6BE00;
+}
+
+.generator {
+    background-color: #03403f;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #fff;
+    font-family: 'Cairo', sans-serif;
+    cursor: pointer;
+}
+
+.icon {
+    margin-left: 25px;
+    margin-top: 15px;
+    margin-bottom: -50px;
 }

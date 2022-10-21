@@ -1,3 +1,28 @@
-background-image: url('./Assets/come.png');
-background-repeat: no-repeat;
-background-size: cover;
+.title {
+    font-size: 160px;
+    color: #FFF;
+    font-family: 'Cairo', sans-serif;
+    margin-bottom: -40px;
+    margin-top: -15px;
+}
+
+.subtitle {
+    font-size: 90px;
+    color: #f6be00;
+    font-family: 'Cairo', sans-serif;
+    margin-top: -90px;
+    margin-bottom: 15px;
+}
+
+.generator {
+    margin-top: -20px;
+}
+
+.sociais {
+    display: flex;
+    margin-right: 2310px;
+}
+
+.middle {
+    text-align: center;
+}
