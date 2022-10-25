@@ -17,7 +17,7 @@ class Home extends Component {
                     <div className='middle'>
                         <h1 className='title'>BÍBLIA</h1>
                         <h2 className='subtitle'>TODOS OS DIAS</h2>
-                        <Botao nome='CLIQUE AQUI' />
+                        <Botao nome='VERSÍCULO DO DIA AQUI!' />
                     </div>
                 </div>
 

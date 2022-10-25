@@ -57,10 +57,13 @@ class Verses extends Component {
                     <Link to='/'><MdWest color='#FFF' size={30} className='icon' /></Link>
                 </div>
 
+
+
                 <div className='container'>
+                    <h1 className='titulo'>QUAL O VERSÍCULO DE HOJE?</h1>
                     <h2 className='verse'>{this.state.textoVersiculo.texto}</h2>
                     <h3 className='reference'>{this.state.textoVersiculo.referencia}</h3>
-                    <Botao nome="VERSÍCULO DO DIA" acaoBtn={this.geraVersiculo} />
+                    <Botao nome="CLIQUE AQUI" acaoBtn={this.geraVersiculo} />
                 </div>
             </>
         )
