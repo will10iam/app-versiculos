@@ -30,9 +30,6 @@
 }
 
 @media (max-width: 1050px) {
-    .container {
-        height: 1000px;
-    }
 
     .middle h1 {
         font-size: 100px;
@@ -45,5 +42,21 @@
 
     .sociais {
         margin-bottom: 50px;
+    }
+}
+
+@media (max-width: 410px) {
+
+    .middle h1 {
+        font-size: 70px;
+        margin-bottom: 40px;
+    }
+
+    .middle h2 {
+        font-size: 40px;
+    }
+
+    .sociais {
+        margin-bottom: 70px;
     }
 }

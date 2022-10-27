@@ -75,3 +75,29 @@
     margin-top: 15px;
     margin-bottom: -50px;
 }
+
+@media (max-width: 1050px) {
+
+    .container h1 {
+        font-size: 30px;
+        margin-bottom: 10px;
+
+    }
+
+    .container h2 {
+        font-size: 20px;
+    }
+
+    .container h3 {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 710px) {
+
+
+    .container h2 {
+        width: 500px;
+    }
+
+}
