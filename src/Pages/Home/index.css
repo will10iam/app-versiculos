@@ -20,13 +20,15 @@
 
 .sociais {
     display: flex;
-    margin-right: 1110px;
-    margin-bottom: 15px;
+    margin-left: 630px;
+    margin-top: 25px;
     gap: 15px;
 }
 
 .middle {
     text-align: center;
+    margin-top: 55px;
+
 }
 
 @media (max-width: 1050px) {
@@ -41,11 +43,11 @@
     }
 
     .sociais {
-        margin-bottom: 50px;
+        margin-left: 470px;
     }
 }
 
-@media (max-width: 410px) {
+@media (max-width: 440px) {
 
     .middle h1 {
         font-size: 70px;
@@ -57,6 +59,7 @@
     }
 
     .sociais {
-        margin-bottom: 70px;
+        margin-left: 160px;
     }
+
 }

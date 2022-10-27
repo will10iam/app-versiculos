@@ -59,7 +59,7 @@ class Verses extends Component {
 
 
 
-                <div className='container'>
+                <div className='container2'>
                     <h1 className='titulo'>QUAL O VERSÍCULO DE HOJE?</h1>
                     <h2 className='verse'>{this.state.textoVersiculo.texto}</h2>
                     <h3 className='reference'>{this.state.textoVersiculo.referencia}</h3>

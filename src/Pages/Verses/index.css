@@ -1,4 +1,4 @@
-.container {
+.container2 {
     background-image: url('../../Assets/come2.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -39,11 +39,6 @@
     letter-spacing: 3px;
 }
 
-.sociais {
-    display: flex;
-    margin-left: 1110px;
-
-}
 
 .insta {
     margin-bottom: -190px;
@@ -78,17 +73,17 @@
 
 @media (max-width: 1050px) {
 
-    .container h1 {
+    .container2 h1 {
         font-size: 30px;
         margin-bottom: 10px;
 
     }
 
-    .container h2 {
+    .container2 h2 {
         font-size: 20px;
     }
 
-    .container h3 {
+    .container2 h3 {
         font-size: 20px;
     }
 }
@@ -96,7 +91,7 @@
 @media (max-width: 710px) {
 
 
-    .container h2 {
+    .container2 h2 {
         width: 500px;
     }
 
