@@ -1,3 +1,7 @@
+.main {
+    height: 100vh;
+}
+
 .container2 {
     background-image: url('../../Assets/come2.png');
     background-repeat: no-repeat;
@@ -90,9 +94,20 @@
 
 @media (max-width: 710px) {
 
-
     .container2 h2 {
         width: 500px;
+    }
+
+}
+
+@media (max-width: 530px) {
+
+    .container2 h2 {
+        width: 300px;
+    }
+
+    .icon {
+        margin-bottom: 10px;
     }
 
 }
