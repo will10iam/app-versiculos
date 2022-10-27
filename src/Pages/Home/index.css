@@ -20,9 +20,30 @@
 
 .sociais {
     display: flex;
-    margin-right: 2310px;
+    margin-right: 1110px;
+    margin-bottom: 15px;
+    gap: 15px;
 }
 
 .middle {
     text-align: center;
+}
+
+@media (max-width: 1050px) {
+    .container {
+        height: 1000px;
+    }
+
+    .middle h1 {
+        font-size: 100px;
+        margin-bottom: 15px;
+    }
+
+    .middle h2 {
+        font-size: 60px;
+    }
+
+    .sociais {
+        margin-bottom: 50px;
+    }
 }

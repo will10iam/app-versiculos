@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './index.css'
 import { Link } from 'react-router-dom'
 import { BsInstagram } from "react-icons/bs";
+import { BsFacebook } from "react-icons/bs";
 
 
 class Home extends Component {
@@ -11,6 +12,7 @@ class Home extends Component {
                 <div className='container'>
                     <div className='sociais'>
                         <a className='insta' href="https://www.instagram.com/constru.ide/" target="_blank" rel="noreferrer"><BsInstagram size={40} /></a>
+                        <a className='insta' href="https://www.facebook.com/presbiterianamaanaim/" target="_blank" rel="noreferrer"><BsFacebook size={40} /></a>
                     </div>
 
 
