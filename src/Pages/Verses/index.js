@@ -52,7 +52,7 @@ class Verses extends Component {
 
     render() {
         return (
-            <div className='main'>
+            <>
                 <div>
                     <Link to='/'><MdWest color='#FFF' size={30} className='icon' /></Link>
                 </div>
@@ -65,7 +65,7 @@ class Verses extends Component {
                     <h3 className='reference'>{this.state.textoVersiculo.referencia}</h3>
                     <Botao nome="CLIQUE AQUI" acaoBtn={this.geraVersiculo} />
                 </div>
-            </div>
+            </>
         )
     }
 }

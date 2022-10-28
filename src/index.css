@@ -1,13 +1,12 @@
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: 'Cairo', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-image: url('./Assets/come2.png');
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
-  height: 590px;
+  height: 100vh;
 
 }
 
